@@ -1,6 +1,6 @@
 # nix-ruby-template
 
-Template repo for developing ruby projects with nix and vscode.
+Template repo for developing ruby projects with nix and vscode. Includes support for Ruby LSP and RuboCop.
 
 Dependencies:
     - Nix
