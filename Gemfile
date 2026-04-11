@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 # gem "rails"
 
-gem "ruby-lsp", "~> 0.26.9"
-gem "rubocop", "~> 1.86"
-gem "rubocop-ast", "~> 1.49"
+gem 'rubocop', '~> 1.86', group: :development
+gem 'rubocop-ast', '~> 1.49', group: :development
+gem 'ruby-lsp', '~> 0.26.9', group: :development
