@@ -7,3 +7,5 @@ source 'https://rubygems.org'
 gem 'rubocop', '~> 1.86', group: :development
 gem 'rubocop-ast', '~> 1.49', group: :development
 gem 'ruby-lsp', '~> 0.26.9', group: :development
+
+gem 'rspec', group: :development
