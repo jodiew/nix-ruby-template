@@ -9,6 +9,7 @@
       devShells.x86_64-linux.default = pkgs.mkShell {
         packages = with pkgs; [
           ruby_4_0        # pin the interpreter
+          ruby_4_0.devdoc # needed for `ri` to work
           libyaml         # for psych
           pkg-config
         ];
